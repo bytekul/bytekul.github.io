@@ -128,96 +128,98 @@ byteKul<!-- Google tag (gtag.js) -->
     </div>
 </div><!-- Pricing Section -->
 <div class="w3-container w3-padding-64 w3-center" style="background-color: transparent; color: #fff;">
-    <h2 class="w3-xxlarge">Pricing</h2>
-    <div class="w3-content" style="max-width:800px">
-        <table class="w3-table w3-bordered w3-hoverable w3-xlarge" style="color: #e0e0e0;">
+    <h2 class="w3-xxlarge" style="margin-bottom: 40px;">Pricing</h2>
+    <div class="pricing-container">
+        <table class="pricing-table">
             <thead>
-                <tr class="w3-dark-grey">
+                <tr>
                     <th style="width:40%; text-align:left;">Feature</th>
                     <th style="width:30%; text-align:center;">Free Strategy</th>
                     <th style="width:30%; text-align:center;">Premium Strategy</th>
                 </tr>
             </thead>
-            <tr>
-                <td style="text-align:left;">Access</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Verified Backtest</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Optimization Level</td>
-                <td class="w3-center">Basic</td>
-                <td class="w3-center">Advanced</td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Walk-Forward Validation</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">White Noise Test</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Overfitting Probability (PBO)</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Win Rate</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Total Return</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Max Drawdown</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Trades Per Year</td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">CAGR</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Buy & Hold Comparison</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Sharpe Ratio</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Sortino Ratio</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">Calmar Ratio</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
-            <tr>
-                <td style="text-align:left;">System Quality Number (SQN)</td>
-                <td class="w3-center"><i class="fa fa-times w3-text-red"></i></td>
-                <td class="w3-center"><i class="fa fa-check w3-text-green"></i></td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td class="pricing-feature">Access</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Verified Backtest</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Optimization Level</td>
+                    <td class="w3-center">Basic</td>
+                    <td class="w3-center" style="color: var(--accent-color); font-weight:bold;">Advanced</td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Walk-Forward Validation</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">White Noise Test</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Overfitting Probability (PBO)</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Win Rate</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Total Return</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Max Drawdown</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Trades Per Year</td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">CAGR</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Buy & Hold Comparison</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Sharpe Ratio</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Sortino Ratio</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">Calmar Ratio</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+                <tr>
+                    <td class="pricing-feature">System Quality Number (SQN)</td>
+                    <td class="w3-center"><i class="fa fa-times pricing-times"></i></td>
+                    <td class="w3-center"><i class="fa fa-check pricing-check"></i></td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </div><!-- Blog Section -->
