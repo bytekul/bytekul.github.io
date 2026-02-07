@@ -98,7 +98,7 @@ a:hover {
 
 .nav-item {
   font-weight: 600;
-  color: var(--text-muted) !important;
+  color: #FFD700 !important;
   border-radius: 6px;
   transition: all 0.2s;
 }
