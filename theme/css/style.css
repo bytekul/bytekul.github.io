@@ -424,3 +424,20 @@ footer {
     height: 100%;
 }
 
+
+/* Gold Headings Override */
+h1, h2, h3, h4, h5, h6,
+.hero-content h1,
+.hero-content p,
+footer h3, footer h4,
+.sidebar h3,
+.pricing-header h3,
+.pricing-table th {
+    color: #FFD700 !important;
+}
+
+.hero-content p {
+    color: #FFD700 !important;
+    opacity: 0.9;
+}
+
