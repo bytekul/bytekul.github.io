@@ -431,5 +431,7 @@ footer {
 /* Gold Headings (H1/H2 Only) */
 h1, h2, .hero-content h1, .section-title {
     color: #FFD700 !important;
+    background: none !important;
+    -webkit-text-fill-color: #FFD700 !important;
 }
 
